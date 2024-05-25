@@ -49,7 +49,7 @@ local function border()
 end
 local function drawIcon(img)
     local rom = NFT.parse(img)
-    NFT.draw(rom,2,(sy-6)+1)
+    NFT.draw(rom,2,(sy-6)+2)
 end
 local function round(a)
     return math.floor(a+0.5)
@@ -69,7 +69,7 @@ end
 local s = {l=0,t=0}
 local ok, err = pcall(function()
     while true do
-        applib.clear("wolf.os drives")
+        applib.clear("drives")
         border()
         --applib.writePos(2,3," hdd ",colors.blue,colors.white)
         --applib.writePos(2,5," rom ",colors.red,colors.white)
