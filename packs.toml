@@ -1,2 +1,6 @@
 [bake]
 location = "local"
+
+[cyclone]
+location = "git"
+url = "https://raw.githubusercontent.com/CC-Proot-OS/Cyclone/main/cyclone.toml"
