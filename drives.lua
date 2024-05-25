@@ -95,7 +95,6 @@ local ok, err = pcall(function()
         applib.writePos(9,sy-2,string.rep("\127",((s.t-s.l)/s.t)*((sx/4)*3)),colors.black,colors.green)
         applib.writePos(9+((s.t-s.l)/s.t)*((sx/4)*3),sy-2,string.rep("\127",(s.l/s.t)*((sx/4)*3)),colors.black,colors.gray)
         local event, button, x, y = os.pullEvent("mouse_click")
-        applib.i.click(x,y)
         click.click(x,y,bs)
 end
 end
