@@ -8,8 +8,8 @@ local NftImages = {
     drive = '\030 \031  \030b\031b\128\0308\0318\128\128\030f\149\030b\149\031 \139\010\030 \031  \030b\031b\128\128\128\128\128\128\010\030 \031  \030b\031b\128\0300\0317____\030b\031b\128\010\030 \031  \030b\031b\128\0300\0317____\030b\031b\128',
 }
 seldrive = "hdd"
-local applib = require("/wolfos/lib/applib")
-local click= require("/wolfos/lib/clicklib")
+local applib = require("applib")
+local click= require("clicklib")
 
 local function hddclk()
     seldrive = "hdd"
