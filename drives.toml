@@ -2,4 +2,4 @@
 type="bin"
 addr="https://raw.githubusercontent.com/CC-Proot-OS/CycloneRepo/main/drives.lua"
 ver=1
-depends=[]
+depends=["cycl.applib"]
