@@ -1,5 +1,5 @@
 [package]
 type="bin"
-addr="https://gist.githubusercontent.com/badgeminer/c441e9626ded0fe0eb0642827f470eae/raw/3beea70cd9f20dee0989b5068198e2266909e359/chroot.lua"
-ver=2
+addr="https://gist.githubusercontent.com/badgeminer/c441e9626ded0fe0eb0642827f470eae/raw/f2e1a8362c18307777ed6a3b74010582055c2124/chroot.lua"
+ver=3
 depends=[]
