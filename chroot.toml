@@ -1,0 +1,5 @@
+[package]
+type="lib"
+addr="https://gist.githubusercontent.com/badgeminer/c441e9626ded0fe0eb0642827f470eae/raw/3beea70cd9f20dee0989b5068198e2266909e359/chroot.lua"
+ver=1
+depends=[]
